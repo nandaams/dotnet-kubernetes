@@ -1,6 +1,6 @@
-> Adopted from https://github.com/MicrosoftDocs/mslearn-dotnet-kubernetes
+# Moved to https://github.com/nandaams/k8s-sample
 
-# Seup Guide
+# Setup Guide
 
 The .NET apps can run on either Linux or Windows (since it's .NET Core). However, for this guide, we will focus mainly on Windows platform.
 
@@ -60,12 +60,6 @@ pizzafrontend   LoadBalancer   10.0.191.38   4.236.217.199   80:30172/TCP   6m19
 
 ### Clean-up
 Clean up by deleting the resource group, in `ps-scripts`, run: `.\clean-up.ps1`
-
-### TODO
-
-- [ ] remove unused namespaces in .cs files
-- [ ] add Log Monitor
-- [ ] connect to Azure Monitor or ELK logging stack
 
 ## References
 
